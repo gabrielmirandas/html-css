@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    table{
+      width: 500px;
+      position: relative;
+  
+    }
+
+    td, th{
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    thead, tfoot{
+      background-color: gray;
+      color: white;
+    }
+
+    thead > tr > th{
+      position: sticky;
+      top: -1px;
+      background-color: grey;
+    }
+
+    caption{
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+      background-color: lightgrey;
+    }
+
+    .numero{
+      text-align: right;
+    }
+
+    tbody > tr:nth-child(2n){
+      background-color: lightgrey;
+    }
+  </style>
+</head>
+<body>
+  <h1>Uso de tabelas grandes</h1>
+  <!-- Anatomia para tabelas grandes
+  Table
+  thead (TR, TD, TH)
+  tbody (TR, TD, TH)
+  tfooter (TR, TD, TH)
+-->
+<table>
+  <caption>População das unidades Federativas</caption>
+  <thead>
+    <tr>
+      <th scope="col">População</th>
+      <th scope="col">Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>China</td>
+      <td class="numero">1 411 780 000</td>
+    </tr>
+    <tr>
+      <td>Índia</td>
+      <td class="numero">1 326 155 000</td>
+    </tr>
+    <tr>
+      <td>Estados Unidos</td>
+      <td class="numero">331 449 281</td>
+    </tr>
+    <tr>
+      <td>Indonésia</td>
+      <td class="numero">273 523 615</td>
+    </tr>
+    <tr>
+      <td>Paquistão</td>
+      <td class="numero">220 892 340</td>
+    </tr>
+    <tr>
+      <td>Nigéria</td>
+      <td class="numero">217 757 685</td>
+    </tr>
+    <tr>
+      <td>Brazil</td>
+      <td class="numero">215 851 765</td>
+    </tr>
+    <tr>
+      <td>Bangladesh</td>
+      <td class="numero">164 689 383</td>
+    </tr>
+    <tr>
+      <td>Rússia</td>
+      <td class="numero">145 934 462</td>
+    </tr>
+    <tr>
+      <td>México</td>
+      <td class="numero">128 932 753	</td>
+    </tr>
+    <tr>
+      <td>Japão</td>
+      <td class="numero">126 476 461</td>
+    </tr>
+    <tr>
+      <td>Etiópia</td>
+      <td class="numero">114 963 588</td>
+    </tr>
+    <tr>
+      <td>Filipinas</td>
+      <td class="numero">109 581 078</td>
+    </tr>
+    <tr>
+      <td>Egito</td>
+      <td class="numero">102 334 404</td>
+    </tr>
+    <tr>
+      <td>Vietname</td>
+      <td class="numero">97 338 579</td>
+    </tr>
+    <tr>
+      <td>República Democrátia do Congo</td>
+      <td class="numero">89 561 403</td>
+    </tr>
+
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row">Total de Habitantes:</th>
+      <td class="numero">5.077.221.797</td>
+    </tr>
+  </tfoot>
+</table>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus optio voluptates cumque. Corporis optio facere reiciendis non alias quidem distinctio, enim rerum suscipit, explicabo exercitationem. Cum ipsa rem libero ipsam!Lorem, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque unde, ut maiores eveniet voluptatibus neque iste consequatur dolor facere fugiat, earum ex doloribus similique quisquam quod ratione ullam quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis sint iste quos, tempora consectetur voluptates repudiandae doloribus maiores deserunt. Voluptas, eum mollitia aliquid vero iure vitae cumque quod. Illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis et ex, hic alias eum sapiente ut vel iusto nesciunt sunt voluptatem temporibus consectetur delectus dolores saepe odit fugit consequuntur.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nesciunt odio, ullam, possimus voluptate rerum atque voluptatem veritatis, molestias optio obcaecati error facere exercitationem alias quaerat doloremque sit quia ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil sapiente facere accusantium quaerat, quo voluptates repellat, iure fuga, ratione nam dolorum quidem sunt. Nulla porro dicta praesentium temporibus iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, inventore recusandae quasi ullam adipisci itaque consequatur sed, hic vel fugiat iure consectetur, incidunt voluptatibus amet. Nemo quia recusandae quo libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas voluptatem dolorum ratione, officia quibusdam? Illum, beatae quam! Cupiditate fugiat neque facere, dicta tempora libero eveniet qui quia aliquid ea.</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae aspernatur incidunt excepturi cupiditate qui laboriosam explicabo asperiores a voluptates? Commodi mollitia exercitationem corporis maxime aliquam possimus reiciendis saepe? Earum, minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, reiciendis eum fuga corrupti perspiciatis modi tempore quod ducimus obcaecati eos fugiat tempora ea et optio, sapiente nisi sit! Corporis, voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, eius repudiandae. Provident, fugiat iste. Vero provident obcaecati cumque saepe, fugit ratione commodi temporibus. Mollitia deleniti libero quisquam, ipsa quaerat praesentium.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi at nihil perferendis. Ipsa magni veritatis quidem quis, provident sed eius et hic, repudiandae error accusamus. In placeat iure exercitationem fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum molestias vero totam laudantium quasi repellendus? Dolorem vero ab molestias impedit quibusdam voluptatibus ipsum dolor quasi, ullam sit eius iure voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ad sapiente, culpa neque sequi cupiditate nulla accusamus asperiores porro laborum ipsum qui enim fuga quam error. Asperiores pariatur tempore tempora?m Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id porro molestiae repellat, incidunt at distinctio inventore obcaecati, animi rem cumque iure dolore maiores fuga, ipsam ex minus adipisci! Quae, aliquam?m Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa itaque velit voluptatem blanditiis deleniti, quos ex, accusamus excepturi dicta corporis, aliquam quidem cum doloribus eaque ducimus harum perferendis. Necessitatibus, quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ex ipsa placeat perspiciatis iste eos aspernatur reprehenderit quas quia obcaecati saepe beatae porro nihil, officiis doloribus sapiente enim! Necessitatibus, similique.</p>
+</body>
+</html>
